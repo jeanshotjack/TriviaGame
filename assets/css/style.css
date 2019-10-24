@@ -7,6 +7,19 @@ body {
     background-repeat: no-repeat;
 }
 
+#background {
+    position: relative;
+}
+
+#poster {
+    position: absolute;
+    left: 1%;
+    top: -0.75%;
+    width: 25%;
+    opacity: 2;
+}
+
+
 h1 {
     text-align: center;
 }

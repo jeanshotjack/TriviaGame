@@ -1,3 +1,12 @@
+body {
+    background-image: url("../images/pubtable.jpg");
+    background-size: cover;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
 h1 {
     text-align: center;
 }
@@ -6,12 +15,14 @@ h1 {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
-    background-color: #2196F3;
+    opacity: 0.65;
     padding: 10px;
+    margin: 20px;;
   }
   
 .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #FFFFFF;
+    opacity: 0.65;
     text-align: center;
     padding: 20px 0;
     font-size: 30px;

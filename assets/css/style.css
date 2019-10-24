@@ -16,12 +16,14 @@ body {
     left: 1%;
     top: -0.75%;
     width: 25%;
-    opacity: 2;
+    opacity: 0.8;
+    z-index: 1;
 }
 
-
+/* NEED TO ADD GOOGLE FONTS AND MAKE H1 LINE UP NEXT TO POSTER */
 h1 {
     text-align: center;
+    color: white;
 }
 
 .grid-container {

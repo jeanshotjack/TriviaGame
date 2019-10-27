@@ -24,6 +24,9 @@ body {
 h1 {
     text-align: center;
     color: white;
+    position: absolute;
+    left: 23%;
+    top: 3%;
 }
 
 .grid-container {
@@ -53,6 +56,24 @@ h1 {
     font-size: 15px;
   }
 
+
+#ready {
+    background-color: #FFFFFF;
+    opacity: 0.75;
+    z-index: 2;
+    text-align: center; 
+    padding: 20px 0;
+    font-size: 30px;
+    width: 200px;
+    margin: 20px;
+    position: absolute;
+    left: 60%;
+    top: 1%;
+}
+
+#head {
+    height: 100px;
+}
 
 
 

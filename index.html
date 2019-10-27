@@ -4,17 +4,24 @@
 <head>
         <title>Music Round</title>
     <script src="assets/javascript/app.js"></script>
+    <script src="jquery-3.4.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
     
 </head>
 
 <body>
 <div id = "background">
+    <div id="head">
     <img id = "poster" src = "assets/images/quiznight.png" />
     <h1>Music Round</h1>
+    <button id="ready">START</button>
+</div>
 
     <div class="grid-container">
-        <div class="q">1</div>
+        <div class="q">Time Remaining:
+            <span id="time">testests</span>
+            
+        </div>
         <div class="q">In which year did Blondie have a number one hit in the UK with ‘Heart of Glass’? </div>
         <button class="a"></button>
         <button class="a"></button>
@@ -55,7 +62,7 @@
         <button class="a"></button>
         <button class="a"></button>
         <button class="a"></button>
-        <button id = "submit" class="q">Submit</button>
+        <button id = "submit" class="q">SUBMIT</button>
     </div>
 </div>
 </body>

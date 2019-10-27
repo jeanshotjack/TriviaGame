@@ -90,6 +90,19 @@ var question = [{
         correct: "c" 
     }]
 
+// insert timer for 100 seconds
+var time = setInterval(timer, 100000);
+var running = false;
+
+
+// timer to start when ready button is clicked
+// set correct and incorrect to 0
+// question options to display
+//
+
+
+
+
 // onclick function 
 $(".a").on("click", function () {
     var user = $(this).text();

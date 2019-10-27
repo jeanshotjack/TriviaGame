@@ -15,7 +15,7 @@ body {
     position: absolute;
     left: 1%;
     top: -0.75%;
-    width: 25%;
+    width: 20%;
     opacity: 0.8;
     z-index: 1;
 }
@@ -31,20 +31,29 @@ h1 {
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
     opacity: 0.65;
-    padding: 10px;
-    margin: 20px;;
+    padding: 15px;
+    margin: 20px 50px 0px 50px;
   }
   
-.grid-container > div {
+.q {
     background-color: #FFFFFF;
     opacity: 0.65;
     text-align: center;
     padding: 20px 0;
-    font-size: 30px;
-  }
-  
-.q {
+    font-size: 25px;
     grid-column-start: 1;
     grid-column-end: 4;
   }
+
+  .a {
+    background-color: #FFFFFF;
+    opacity: 0.65;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 15px;
+  }
+
+
+
+
 

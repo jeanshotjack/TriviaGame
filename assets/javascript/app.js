@@ -1,3 +1,6 @@
+var right = 0;
+var wrong = 0;
+
 // questions object - referenced using position in array 
 var question = [{
         ques: "In which year did Blondie have a number one hit in the UK with ‘Heart of Glass’?",
@@ -96,13 +99,14 @@ var running = false;
 
 
 // timer to start when ready button is clicked
+$("#ready").on("click", start);
+
+
 // set correct and incorrect to 0
 // question options to display
-//
-
-
-
-
+//create timer function
+// create start function
+//loop through questions checking which choice they made 
 // onclick function 
 $(".a").on("click", function () {
     var user = $(this).text();
@@ -111,3 +115,11 @@ $(".a").on("click", function () {
         correct++;
         }
 });
+
+// if time runs out show time out screen
+
+
+
+
+
+
